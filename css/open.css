@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    margin: 20px auto; /* Decreased margin */
+    padding: 10px; /* Decreased padding */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px; /* Decreased border radius */
+    backdrop-filter: blur(5px); /* Decreased blur */
+    max-width: 70%; /* Decreased max-width */
+}
+
+.input-container {
+    text-align: center;
+    margin-bottom: 10px; /* Decreased margin */
+}
+
+.formControlRange {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(44, 201, 13, 0.5);
+    border-radius: 10px; /* Decreased border radius */
+    padding: 20px; /* Decreased padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Decreased blur */
+}
+
+
+
+input[type="text"] {
+    width: calc(80% - 5px); /* Decreased width */
+    padding: 8px; /* Decreased padding */
+    font-size: 14px; /* Decreased font size */
+    border: 1px solid rgba(81, 203, 0, 0.8);
+    border-radius: 6px; /* Decreased border radius */
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px; /* Decreased margin */
+}
+
+button.open,
+button.stop,
+button.reset {
+    padding: 8px 16px; /* Smaller buttons */
+    font-size: 14px; /* Decreased font size */
+    border-radius: 6px; /* Decreased border radius */
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+button.open:hover,
+button.stop:hover,
+button.reset:hover {
+    background: linear-gradient(to bottom, #008f09, #007b07);
+    box-shadow: 0 0 8px rgba(30, 203, 0, 0.5); /* Glowing effect */
+}
+
+.result-container {
+    text-align: center;
+}
+
+
+
+span {
+    font-weight: bold;
+}
+
+/* Your existing styles */
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid rgba(81, 203, 0, 0.8);
+    border-radius: 6px;
+    resize: none;
+    background-color: transparent;
+    color: white;
+}
+/* Your existing styles */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Your existing styles */
+
+.reset {
+    background: linear-gradient(to bottom, #ff3333, #cc0000); /* Red gradient button */
+    color: #fff;
+    padding: 8px 16px; /* Smaller padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Decreased font size */
+    transition: background 0.3s;
+}
+
+.reset:hover {
+    background: linear-gradient(to bottom, #cc0000, #aa0000); /* Darker red on hover */
+}
+
+
+.form-label {
+    position: relative;
+    top: -30px; /* Adjust this value to move the text up or down */
+    right: -350px; /* Adjust this value to move the text more or less to the right */
+}
+
+
+/* setting page */
+
+.settings-container {
+    margin: 20px auto; /* Decreased margin */
+    padding: 10px; /* Decreased padding */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px; /* Decreased border radius */
+    backdrop-filter: blur(5px); /* Decreased blur */
+    max-width: 70%; /* Decreased max-width */
+}
+
+.help-container {
+    margin: 20px auto; /* Decreased margin */
+    padding: 10px; /* Decreased padding */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px; /* Decreased border radius */
+    backdrop-filter: blur(5px); /* Decreased blur */
+    max-width: 50%; /* Decreased max-width */
+}
+
+.card {
+    margin: 20px auto; /* Decreased margin */
+    padding: 10px; /* Decreased padding */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px; /* Decreased border radius */
+    backdrop-filter: blur(5px); /* Decreased blur */
+    max-width: 70%;
+
+}

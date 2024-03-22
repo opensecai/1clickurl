@@ -1,0 +1,30 @@
+{
+  "name": "1click-url",
+  "short_name": "clicklick",
+  "author": "Euan Riggans",
+  "manifest_version": 3,
+  "version": "1.0.2",
+  "description": "Browser addon to open multiple urls with one click. With many more tools to help you manage urls.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_icon": "icon/click-64.png",
+    "default_title": "Bulk URL Open",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "/pages/settings/index.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icon/click-16.png",
+    "32": "icon/click-32.png",
+    "64": "icon/click-64.png",
+    "128": "icon/click-128.png"
+  }
+}
